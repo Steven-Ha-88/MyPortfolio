@@ -100,7 +100,7 @@ export const Image = styled.img`
 
     @media (max-width: 375px) {
       width: 100%;
-      height: 100%;
+      height: auto;
     }
 
     `;
