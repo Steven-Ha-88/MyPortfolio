@@ -18,9 +18,12 @@ export const Container = styled.div`
    
 
 export const Wrapper = styled.div`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 55%;
-    length: 100%;
+    height: 100%;
     @media (max-width: 1024px) {
       width: 100%
     }
@@ -51,18 +54,33 @@ export const Header = styled.h1`
     letter-spacing: 2px;
     @media (max-width: 375px) {
       font-size: 4em;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+    }
+    @media (max-width: 1640px) {
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
     }
     @media (max-width: 1024px) {
-      font-size: 6em;
+      margin-top: 0px;
       margin-left: 0px;
+      margin-bottom: 0px;
     }
 `;
 
 export const SubHead = styled.h1` 
     font-family: 'Nunito Sans',sans-serif;
     margin: 0 0 0 100px;
-  
+    text-align: center;
+    letter-spacing: 2px;
     font-size: 4em;
+
+    @media (max-width: 1640px) {
+      font-size: 3em;
+    }
+
     @media (max-width: 1024px) {
       font-size: 3em;
       margin-left: 0px;
@@ -72,17 +90,17 @@ export const SubHead = styled.h1`
 
 export const Image = styled.img`
     width: auto;
-    height: 100%;
+    height: 125%;
     align-self: flex-end;
 
     @media (max-width: 1024px) {
       width: 70%;
-      height: 92%;
+      height: 100%;
     }
 
     @media (max-width: 375px) {
       width: 100%;
-      height: 90%;
+      height: 100%;
     }
 
     `;
