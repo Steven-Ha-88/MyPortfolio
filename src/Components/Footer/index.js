@@ -12,7 +12,7 @@ export const Footer = () => {
            <SocialLinks href="mailto:steven.dev@outlook.com"><i class="fas fa-envelope"></i></SocialLinks>
          </Stack>
          <Description>
-         &copy; COPYRIGHT STEVEN HA
+         &copy; Copyright Steven Ha
          </Description>
     </Container>
   );

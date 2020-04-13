@@ -23,7 +23,11 @@ export const Wrapper = styled.div`
 
 export const Header = styled.h1`
     font-family: 'DM Serif Display', serif;
+    @media(max-width: 375px) {
+      font-size: 1.6em;
+    }
 `;
+
 
 export const Description = styled.p`
     font-family: 'Roboto Mono', monospace;
