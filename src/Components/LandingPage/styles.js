@@ -6,12 +6,13 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
     font-family: 'Nunito Sans',sans-serif;
+    background-color: #f4f4f4;
 
 
 
     @media (max-width: 1024px) {
       flex-direction: column;
-      justify-content: flex-end;
+      justify-content: flex-start;
 
     }
     `;
@@ -25,33 +26,35 @@ export const Wrapper = styled.div`
     width: 55%;
     height: 100%;
     @media (max-width: 1024px) {
-      width: 100%
+      width: 100%;
+      justify-content: center;
+
     }
 `;
 
 export const WrapperImg = styled.div`
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     align-self: flex-end;
     @media (max-width: 1024px) {
       justify-content: center;
     }
+    @media (max-width: 375px) {
+      height: 100%;
+    }
 
 `;
 
 export const Header = styled.h1` 
-    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 700;
+    font-size: 82px;
+    font-family: 'DM Serif Display', serif;
+    line-height: 1.3;
     margin-left: 100px;
     margin-bottom: 10px;
-    text-align: center;
-    font-size: 6em;
-    color: white;
-    text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-          -1px -1px 0 #000;
-    letter-spacing: 2px;
+    text-align: start;
+    color: black;
     @media (max-width: 375px) {
       font-size: 4em;
       margin-top: 0px;
@@ -70,19 +73,19 @@ export const Header = styled.h1`
     }
 `;
 
-export const SubHead = styled.h1` 
+export const SubHead = styled.p` 
     font-family: 'Nunito Sans',sans-serif;
     margin: 0 0 0 100px;
-    text-align: center;
+    text-align: start;
     letter-spacing: 2px;
-    font-size: 4em;
+    font-size: 1em;
 
     @media (max-width: 1640px) {
-      font-size: 3em;
+      font-size: 1em;
     }
 
     @media (max-width: 1024px) {
-      font-size: 3em;
+      font-size: 1em;
       margin-left: 0px;
       text-align: center;
     }
@@ -90,7 +93,7 @@ export const SubHead = styled.h1`
 
 export const Image = styled.img`
     width: auto;
-    height: 125%;
+    height: 100%;
     align-self: flex-end;
 
     @media (max-width: 1024px) {
@@ -99,9 +102,30 @@ export const Image = styled.img`
     }
 
     @media (max-width: 375px) {
-      width: 100%;
-      height: auto;
+      width: 80%;
+      height: 110%;
     }
 
     `;
+
+    export const Stack = styled.div`
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    letter-spacing: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    @media (max-width: 1024px) {
+      justify-content: center;
+      margin-top: 20px;
+    }
+`;
+
+export const SocialLinks = styled.a`
+    textDecoration: none;  
+    color: white;
+    font-size: 1.5em;
+`;
+
+    
      
