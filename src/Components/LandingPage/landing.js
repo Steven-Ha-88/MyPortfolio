@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Header, Wrapper, WrapperImg, SubHead, Stack, SocialLinks } from './styles';
+import { Container, Image, Header, Wrapper, WrapperImg, SubHead } from './styles';
 import Selfie from './../../Images/Selfie.png'
 
 

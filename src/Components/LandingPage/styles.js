@@ -56,7 +56,7 @@ export const Header = styled.h1`
     text-align: start;
     color: black;
     @media (max-width: 375px) {
-      font-size: 4em;
+      font-size: 3em;
       margin-top: 0px;
       margin-left: 0px;
       margin-bottom: 0px;

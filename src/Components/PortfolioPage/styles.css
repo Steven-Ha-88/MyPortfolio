@@ -1,0 +1,46 @@
+.my-caro {
+  width: 100vw;
+  padding: 40px 20% 0 20%;
+}
+
+@media (max-width: 1024px) {
+  .my-caro {
+    padding: 70px 20px 0 20px;
+  }
+
+}
+.header {
+  font-family: 'DM Serif Display', serif;
+  margin: 20px 0;
+}
+
+.description {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.exit {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  text-decoration: none;
+  z-index: 999;
+  color: black;
+  font-size: 2.5em;
+  font-family: 'Roboto Mono', monospace;
+}
+.exit:hover {
+  color:#ffc809;
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  .exit {
+    font-size: 2.5em;
+    left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .exit {
+    font-size: 1.5em;
+    left: 10px;
+  }
+}

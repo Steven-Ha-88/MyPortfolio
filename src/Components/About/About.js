@@ -6,7 +6,7 @@ export const AboutMe = () => {
   return (
     <Section id="about">
     <ImgWrapper>
-      <div data-aos="fade-right" data-aos-easing="ease-out-cubic"data-aos-duration="2000" style={{width: "90%", margin: "50px"}}>
+      <div data-aos="fade-right" data-aos-easing="ease-out-cubic" style={{width: "90%", margin: "50px"}}>
         <Image src={pic1} />
       </div>
     </ImgWrapper>

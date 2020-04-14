@@ -47,11 +47,8 @@ export const Link = styled.a`
   color: black;
   font-family: 'Nunito Sans',sans-serif;
   :hover {
-    color: #41b883;
-  }
-
-
-
+    color: #ffc809;
+}
 `;
 
 

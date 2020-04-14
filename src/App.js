@@ -1,25 +1,32 @@
-import React from 'react';
-import { LandingPage } from './Components/LandingPage/landing';
-import { AboutMe } from './Components/About/About';
-import { Projects } from './Components/Projects/index';
-import { GlobalStyle } from './styles';
-import { Contact } from './Components/Contact/index';
-import { Footer } from './Components/Footer/index';
-import Navbar from './Components/Navbar/index.js';
+import React, { useContext } from "react";
+import { Router, Switch, Route, __RouterContext, BrowserRouter } from "react-router-dom";
+import { useTransition, animated } from "react-spring";
+import Home from "./Home";
+import { Portfolio } from "./Components/PortfolioPage/index.js";
+import history from "./history";
 
 
-function App() {
+const App = () => {
+  // const { location } = useContext(__RouterContext);
+  // const transitions = useTransition(location, location => location.pathname, {
+  //   from: { opacity: 0, transform: "translate(-100%, 0)" },
+  //   enter: { opacity: 1, transform: "translate(0%, 0)" },
+  //   leave: { opacity: 0, transform: "translate(-100%, 0)" }
+  // });
+
   return (
-    <div className="App">
-    <GlobalStyle />
-    <Navbar />
-    <LandingPage />
-    <AboutMe />
-    <Projects />
-    <Contact />
-    <Footer />
-    </div>
+    <>
+            <Router history={history}>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/Portfolio" render={(props) => <Portfolio {...props} header="Hello World" description="blablabla" />} />
+            </Router>
+            
+        {/* {transitions.map(({ item, props, key }) => (
+          <animated.div key={key} style={props}>
+          </animated.div>
+        ))} */}
+    </>
   );
-}
+};
 
 export default App;

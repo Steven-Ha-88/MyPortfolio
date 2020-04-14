@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonAnchor, Container, Wrapper, Header, Button, Description } from './styles';
+import { Container, Wrapper, Header, Button, Description } from './styles';
 
 
 export const Contact = () => {

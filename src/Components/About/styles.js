@@ -83,6 +83,7 @@ export const Description = styled.p`
 export const Skills = styled.div`
   display: flex;
   justify-content: flex-start;
+  margin-top: 30px;
   @media (max-width: 1024px) {
   justify-content: center;
   margin-top: 20px;
