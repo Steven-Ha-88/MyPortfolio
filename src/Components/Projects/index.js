@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Wrapper, Header, Image } from './styles';
+import { Container, Card, Wrapper, Header, Image, Overlay, Text } from './styles';
 import reddit from './../../Images/reddit.png';
 import weather from './../../Images/Weather.png';
 import weather1 from './../../Images/Weather1.png';
@@ -15,16 +15,42 @@ export const Projects = () => {
           <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
               <Link to="/Portfolio" style={{ textDecoration: "none" }} >
                 <Image src={reddit} />
+              <Overlay>
+                <Text>
+                  Open
+                </Text>
+              </Overlay>
               </Link>
           </Card>
         <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
-          <Image src={weather} />
+            <Link to="/Portfolio" style={{ textDecoration: "none" }} >
+                <Image src={weather} />
+                <Overlay>
+                  <Text>
+                    Open
+                  </Text>
+                </Overlay>
+            </Link>
         </Card>
         <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
-          <Image src={weather1} />
+            <Link to="/Portfolio" style={{ textDecoration: "none" }} >
+              <Image src={weather1} />
+              <Overlay>
+                <Text>
+                    Open
+                </Text>
+              </Overlay>
+            </Link>
         </Card>
         <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
-          <Image src={musician} />
+            <Link to="/Portfolio" style={{ textDecoration: "none" }} >
+                <Image src={musician} />
+                <Overlay>
+                  <Text>
+                    Open
+                  </Text>
+                </Overlay>
+            </Link>
         </Card>
       </Wrapper>
     </Container>

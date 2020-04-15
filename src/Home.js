@@ -13,15 +13,12 @@ import AbsoluteWrapper from "./Components/AbsoluteWrapper";
 function App() {
   return (
     <AbsoluteWrapper>
-    <div className="App">
     <GlobalStyle />
-    <Navbar />
     <LandingPage />
     <AboutMe />
     <Projects />
     <Contact />
     <Footer />
-    </div>
     </AbsoluteWrapper>
   );
 }

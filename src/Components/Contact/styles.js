@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items: center;
     width: 100vw;
     height: 400px;
-    background-color: rgb(255, 193, 7);
+    background-color: #28b684;
     color: white;
     line-height: 1.8;
 `;
@@ -58,7 +58,8 @@ transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-
 text-decoration: none;
 :hover {
   background-color: white;
-  color: black
+  color: black;
+  text-decoration: none;
 }
 `;
 

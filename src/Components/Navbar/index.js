@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { HeaderWrapper, Link } from "./styles";
-
+import './styles';
 
 const useTransparentHook = height => {
   const [isTransparent, setTransparent] = useState(true);
@@ -22,9 +22,15 @@ const Header = () => {
   const isTransparent = useTransparentHook(40);
   return (
     <HeaderWrapper isTransparent={isTransparent}>
-       <Link href="#about">About</Link>
-       <Link href="#projects">Projects</Link>
-       <Link href="#contact">Contact</Link>
+      <Link to="/#about">
+        About
+      </Link>
+      <Link to="/#projects">
+        Projects
+      </Link>
+      <Link to="/#contact">
+        Contact
+      </Link>
     </HeaderWrapper>
   );
 };

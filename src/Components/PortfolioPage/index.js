@@ -1,15 +1,14 @@
 import React from 'react';
-import pic1 from './../../Images/Weather.png';
-import pic2 from './../../Images/Weather1.png';
+import pic2 from './../../Images/Weather.png';
+import pic1 from './../../Images/Weather1.png';
 import "./styles.css";
 import AbsoluteWrapper from "./../AbsoluteWrapper";
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const Portfolio = props => {
   return (
     <AbsoluteWrapper>
     <div style={{backgroundColor: "#f4f4f4", width: "100vw", height:"100vh"}}>
-        <Link className="exit" to="/">x</Link>
       <div className="my-caro">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="2500">
             <ol className="carousel-indicators">
@@ -34,15 +33,20 @@ export const Portfolio = props => {
               <span className="sr-only">Next</span>
             </a>
           </div>
-          <div>
+      </div>
+          <div className="project-description">
             <h1 className="header">
               {props.header}
             </h1>
             <p className="description">
               {props.description}
             </p>
+            <div className="btn-container">
+              <a href="" className="btn">Demo</a>
+              <a href="" className="btn">Code</a>
+            </div>
+            <Link className="exit" to="/#projects"><i class="fas fa-long-arrow-alt-left"></i></Link>
           </div>
-      </div>
     </div>
     </AbsoluteWrapper>
   );

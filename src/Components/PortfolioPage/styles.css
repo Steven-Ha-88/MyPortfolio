@@ -1,11 +1,11 @@
 .my-caro {
   width: 100vw;
-  padding: 40px 20% 0 20%;
+  padding: 100px 20% 0 20%;
 }
 
 @media (max-width: 1024px) {
   .my-caro {
-    padding: 70px 20px 0 20px;
+    padding: 50px 20px 0 20px;
   }
 
 }
@@ -19,28 +19,76 @@
 }
 
 .exit {
-  position: absolute;
-  top: 0;
-  left: 20px;
   text-decoration: none;
-  z-index: 999;
-  color: black;
-  font-size: 2.5em;
+  color: grey;
+  font-size: 3.5em;
   font-family: 'Roboto Mono', monospace;
+  height: 56px;
+  width: 49px;
+  transition: 300ms;
 }
-.exit:hover {
-  color:#ffc809;
-  text-decoration: none;
-}
+
 @media (max-width: 1024px) {
   .exit {
     font-size: 2.5em;
-    left: 10px;
+    
   }
 }
 @media (max-width: 500px) {
   .exit {
-    font-size: 1.5em;
-    left: 10px;
+    font-size: 2.5em;
+
   }
+}
+
+.exit:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 3.7em;
+}
+
+.btn {
+  margin-bottom: 21.44px;
+  font-family: 'Roboto Mono', monospace;
+  width: 180px;
+  height: 50px;
+  line-height: 32px;
+  margin-right: 10px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0px;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  box-shadow: none!important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #28b684;
+  color: white;
+  border: 2px solid white;
+}
+
+.project-description{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+@media (max-width: 500px) {
+  .project-description {
+    padding: 0 20px;
+  }
+
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
 }

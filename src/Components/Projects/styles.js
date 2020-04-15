@@ -34,6 +34,21 @@ export const Wrapper = styled.div`
 `;
 
 
+
+export const Overlay = styled.div`
+
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+border-radius: 10px;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #31835fab;
+`;
 export const Card = styled.div`
   width: 750px;
   height: 460px;
@@ -44,6 +59,23 @@ export const Card = styled.div`
     width: 500px;
     height: 200px;
   }
+  :hover ${Overlay} {
+    opacity: 1;
+
+  }
+`;
+
+export const Text = styled.div`
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
 
 `;
 
