@@ -28,7 +28,6 @@ export const Wrapper = styled.div`
     @media (max-width: 1024px) {
       width: 100%;
       justify-content: center;
-
     }
 `;
 
@@ -40,7 +39,7 @@ export const WrapperImg = styled.div`
     @media (max-width: 1024px) {
       justify-content: center;
     }
-    @media (max-width: 375px) {
+    @media (max-width: 600px) {
       height: 100%;
     }
 
@@ -61,13 +60,9 @@ export const Header = styled.h1`
       margin-left: 0px;
       margin-bottom: 0px;
     }
-    @media (max-width: 1640px) {
-      margin-top: 0px;
-      margin-left: 0px;
-      margin-bottom: 0px;
-    }
+
     @media (max-width: 1024px) {
-      margin-top: 0px;
+      margin-top: 40px;
       margin-left: 0px;
       margin-bottom: 0px;
     }
