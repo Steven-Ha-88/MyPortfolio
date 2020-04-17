@@ -50,8 +50,8 @@ transition: .5s ease;
 background-color: #31835fab;
 `;
 export const Card = styled.div`
-  width: 750px;
-  height: 460px;
+  width: 500px;
+  height: 300px;
   border-radius: 10px;
   margin: 30px;
   cursor: pointer;

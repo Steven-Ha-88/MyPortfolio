@@ -61,10 +61,12 @@ export const Header = styled.h1`
       margin-bottom: 0px;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
       margin-top: 40px;
       margin-left: 0px;
       margin-bottom: 0px;
+      font-size: 70px;
+
     }
 `;
 

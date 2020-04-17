@@ -5,6 +5,7 @@ export const Section = styled.div`
     flex-direction: row;
     width: 100vw;
     height: 100vh;
+    margin-bottom: 150px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -29,7 +30,7 @@ export const ImgWrapper = styled.div`
     flex-direction: column;
     width: 50%;
     height: 50%;
-    padding: 0 100px;
+    padding: 0 50px;
 
     @media (max-width: 1024px) {
      padding: 0;
