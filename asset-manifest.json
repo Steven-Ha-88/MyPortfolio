@@ -1,29 +1,36 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.927d6571.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.86424d56.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.86424d56.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.6ba873fe.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.9e62a7fa.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.9e62a7fa.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.90f6a591.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.90f6a591.js.map",
-    "static/js/2.ad0da8bb.chunk.js": "/MyPortfolio/static/js/2.ad0da8bb.chunk.js",
-    "static/js/2.ad0da8bb.chunk.js.map": "/MyPortfolio/static/js/2.ad0da8bb.chunk.js.map",
+    "static/js/2.8ffca075.chunk.js": "/MyPortfolio/static/js/2.8ffca075.chunk.js",
+    "static/js/2.8ffca075.chunk.js.map": "/MyPortfolio/static/js/2.8ffca075.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.54c632e8a6a0eee2f33461babd28004e.js": "/MyPortfolio/precache-manifest.54c632e8a6a0eee2f33461babd28004e.js",
+    "precache-manifest.6833d3d2a245f2a31f3436d6628c51c8.js": "/MyPortfolio/precache-manifest.6833d3d2a245f2a31f3436d6628c51c8.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
-    "static/css/main.927d6571.chunk.css.map": "/MyPortfolio/static/css/main.927d6571.chunk.css.map",
-    "static/js/2.ad0da8bb.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ad0da8bb.chunk.js.LICENSE.txt",
+    "static/css/main.6ba873fe.chunk.css.map": "/MyPortfolio/static/css/main.6ba873fe.chunk.css.map",
+    "static/js/2.8ffca075.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.8ffca075.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/MyPortfolio/static/media/CV.0db451de.pdf",
     "static/media/Selfie.png": "/MyPortfolio/static/media/Selfie.8e56dee4.png",
     "static/media/Weather.png": "/MyPortfolio/static/media/Weather.05d63579.png",
     "static/media/Weather1.png": "/MyPortfolio/static/media/Weather1.0f38c28f.png",
-    "static/media/musician.png": "/MyPortfolio/static/media/musician.9b15c85f.png",
-    "static/media/reddit.png": "/MyPortfolio/static/media/reddit.9a944ee0.png",
-    "static/media/setup2.jpeg": "/MyPortfolio/static/media/setup2.8d77a693.jpeg"
+    "static/media/Weather2.png": "/MyPortfolio/static/media/Weather2.95c9aa8c.png",
+    "static/media/my-portfolio.png": "/MyPortfolio/static/media/my-portfolio.a235c26f.png",
+    "static/media/reddit.png": "/MyPortfolio/static/media/reddit.1fe1eb79.png",
+    "static/media/reddit1.png": "/MyPortfolio/static/media/reddit1.ed38b1df.png",
+    "static/media/reddit2.png": "/MyPortfolio/static/media/reddit2.568e6c9c.png",
+    "static/media/setup2.jpeg": "/MyPortfolio/static/media/setup2.8d77a693.jpeg",
+    "static/media/streamer.png": "/MyPortfolio/static/media/streamer.6619bed1.png",
+    "static/media/streamer1.png": "/MyPortfolio/static/media/streamer1.0ff3af2e.png",
+    "static/media/streamer2.png": "/MyPortfolio/static/media/streamer2.28d12977.png",
+    "static/media/youtube.png": "/MyPortfolio/static/media/youtube.3974d046.png"
   },
   "entrypoints": [
     "static/js/runtime-main.90f6a591.js",
-    "static/js/2.ad0da8bb.chunk.js",
-    "static/css/main.927d6571.chunk.css",
-    "static/js/main.86424d56.chunk.js"
+    "static/js/2.8ffca075.chunk.js",
+    "static/css/main.6ba873fe.chunk.css",
+    "static/js/main.9e62a7fa.chunk.js"
   ]
 }
