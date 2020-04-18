@@ -6,7 +6,7 @@ export const AboutMe = () => {
   return (
     <Section id="about">
     <ImgWrapper>
-      <div data-aos="fade-right" data-aos-easing="ease-out-cubic" style={{width: "90%", margin: "50px"}}>
+      <div data-aos="fade-right" data-aos-easing="ease-out-cubic" style={{width: "100%"}}>
         <Image src={pic1} />
       </div>
     </ImgWrapper>
@@ -25,7 +25,7 @@ export const AboutMe = () => {
           <Point>MongoDB</Point>
         </List>
       </Skills>
-      <Container data-aos="fade-up" colour="white" height="400px" fontcolor="white">
+      <Container data-aos="fade-down" colour="white" height="400px" fontcolor="white">
       <Stack>
         <i className="devicon-javascript-plain colored"></i>
         <i className="devicon-typescript-plain colored"></i>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const AbsoluteWrapper = ({ children }) => {
-  return <div className="position-absolute w-100">{children}</div>;
+  return <div className="position-absolute w-100" style={{backgroundColor:  "#f4f4f4"}}>{children}</div>;
 };
 
 export default AbsoluteWrapper;

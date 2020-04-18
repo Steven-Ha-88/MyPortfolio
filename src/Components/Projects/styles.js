@@ -5,17 +5,14 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
   background-color: #f4f4f4;
 `;
 
 export const Header = styled.h1`
   text-align: center;
-  margin: 0 20px 0 20px;
-  margin-bottom: 0px;
   font-family: 'DM Serif Display', serif;
   color: #8a8a8a;
-  margin: 100px 0 20px;
+  margin: 50px 0 20px;
   @media (max-width: 375px) {
     margin-bottom: 0px;
   }

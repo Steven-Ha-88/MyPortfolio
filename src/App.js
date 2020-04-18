@@ -4,7 +4,7 @@ import { useTransition, animated } from "react-spring";
 import Home from "./Home";
 import { Portfolio } from "./Components/PortfolioPage/index.js";
 import Navbar from './Components/Navbar/index'
-import history from "./history";
+import { ams, weather, streamer, youtube, myweb } from './project-list';
 
 
 const App = () => {
@@ -22,7 +22,11 @@ const App = () => {
           <animated.div key={key} style={props}>
             <Switch location={item}>
               <Route exact path="/" component={Home} />
-              <Route exact path="/Portfolio" render={(props) => <Portfolio {...props} header="The Weather" description="blablabla" />} />
+              <Route exact path="/project-askmesomething" render={(props) => <Portfolio {...props} project={ams} />} />
+              <Route exact path="/project-weather" render={(props) => <Portfolio {...props} project={weather} />} />
+              <Route exact path="/project-streamer" render={(props) => <Portfolio {...props} project={streamer} />} />
+              <Route exact path="/project-youtube" render={(props) => <Portfolio {...props} project={youtube} />} />
+              <Route exact path="/project-portfolio" render={(props) => <Portfolio {...props} project={myweb} />} />
             </Switch>
           </animated.div>
         ))} 

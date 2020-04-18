@@ -5,7 +5,7 @@ export const Section = styled.div`
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    margin-bottom: 150px;
+    padding: 0 50px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -13,8 +13,11 @@ export const Section = styled.div`
 
     @media (max-width: 1024px) {
       flex-direction: column;
+      padding: 0;
       height: auto;
     }
+
+   
 `;
 
 export const Image = styled.img`
@@ -28,23 +31,31 @@ export const ImgWrapper = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    height: 50%;
-    padding: 0 50px;
+    width: 100%;
+    margin-right: 50px;
+    padding: 50px;
 
-    @media (max-width: 1024px) {
-     padding: 0;
-     width: 100%;
+    @media (max-width: 1300px) {
+     padding: 0px;
     height: 100%;
     }
+
+    @media (max-width: 1030px) {
+      margin:0;
+      padding: 100px
+    }
+
+    @media (max-width: 600px) {
+      padding: 20px;
+      margin-right: 0px;
+     }
    
 `;
 
 export const AboutWrapper = styled.div`
     color: black;
     flex-direction: column;
-    width: 50%;
-    height: 50%;
+    width: 100%;
     display: flex;
     justify-content: start;
     text-align: left;
@@ -59,7 +70,6 @@ export const AboutWrapper = styled.div`
 
 export const Header = styled.h1`
     margin: 0 20px 0 20px;
-    margin-bottom: 0px;
     font-family: 'DM Serif Display', serif;
     color: #8a8a8a;
 `;
@@ -67,18 +77,21 @@ export const Header = styled.h1`
 export const Description = styled.p`
     font-size: 1em;
     text-align: ${props => props.textAlign};
-    margin: 30px 20px 0 20px;
-    padding: 0 100px 0 0;
+    margin: 30px 50px 0 20px;
     font-family: 'Roboto Mono', monospace;
      @media (max-width: 1024px) {
           font-size: 1em;
           text-align: center;
           padding: 0 106px;
     }
-    @media (max-width: 376px) {
-      
-      padding: 0;
+    @media (max-width: 1300px) {
+      font-size: 14px;
+      margin: 30px 20px 0 20px;
+
 }
+    @media (max-width: 376px) {
+      padding: 0;
+    }
 `;
 
 export const Skills = styled.div`
@@ -95,14 +108,16 @@ export const List = styled.ul`
   list-style: none;  
   font-family: 'Roboto Mono', monospace;
   padding: 0 20px;
+  @media (max-width:1300px) {
+    font-size: 14px;
+  }
 
 
 `;
 
 export const Point = styled.li`
     margin-bottom: 15px;
-    
-    
+
     ::before {
       font-family: FontAwesome;
       content: "\f00c";
@@ -128,7 +143,8 @@ export const Stack = styled.div`
     flex-direction: row;
     font-size: 2em;
     letter-spacing: 8px;
-    margin: 20px;
+    padding: 0 20px;
+    margin: 20px 0 40px 0;
     @media (max-width: 1024px) {
       justify-content: center;
       margin-top: 20px;
