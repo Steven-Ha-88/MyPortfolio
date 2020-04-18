@@ -55,7 +55,6 @@ export const Header = styled.h1`
     text-align: start;
     color: black;
     @media (max-width: 375px) {
-      font-size: 3em;
       margin-top: 0px;
       margin-left: 0px;
       margin-bottom: 0px;
@@ -65,7 +64,7 @@ export const Header = styled.h1`
       margin-top: 40px;
       margin-left: 0px;
       margin-bottom: 0px;
-      font-size: 70px;
+      font-size: 55px;
 
     }
 `;

@@ -23,11 +23,9 @@ export const Wrapper = styled.div`
   flex-flow: row wrap;
   background-color: white;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   background-color: #f4f4f4;
-  @media (max-width: 375px) {
-    
-  }
+  
 `;
 
 

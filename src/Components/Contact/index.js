@@ -11,7 +11,7 @@ export const Contact = () => {
         </Header>
         <Description data-aos="fade-right">
           Email: steven.dev@outlook.com<br/>
-          Mobile: 07842555942
+          Please feel free to download my CV.
         </Description>
         <Button href="mailto:steven.dev@outlook.com" data-aos="fade-right">
           get in touch!   

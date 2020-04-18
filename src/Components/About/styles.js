@@ -48,6 +48,7 @@ export const ImgWrapper = styled.div`
     @media (max-width: 600px) {
       padding: 20px;
       margin-right: 0px;
+      margin-top: 30px;
      }
    
 `;

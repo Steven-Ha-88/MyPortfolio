@@ -52,7 +52,7 @@ export const weather = {
 
 export const streamer = {
                       name: "Streamer",
-                      description: "A web application that follows CRUD operations. Users are able make a post that allows other users to view the stream. Think of it like the ever so popular streaming site - Twitch",
+                      description: "A web application that follows CRUD operations. Users are able to create a post that allows other users to view the stream. Think of it like the ever so popular streaming site - Twitch",
                       technologies: "Technologies used: JavaScript, React, Redux, React-Router,  Axios, SemanticUI, JSON-Server, OBS, RTMP server, Lodash ",
                       images: {
                         img1: streamer1,
