@@ -40,7 +40,7 @@ export const myweb = {
 export const weather = {
                       name: "The Weather App",
                       description: "Check the current weather forecast of your favourite city!",
-                      technologies: "Technologies used: JavaScript, React, React, Redux, React Router,  Axios, Jest/Enzyme, Styled Components, Responsive Design, OpenWeatherAPI",
+                      technologies: "Technologies used: JavaScript, React, Redux, React Router,  Axios, Jest/Enzyme, Styled Components, Responsive Design, OpenWeatherAPI",
                       images: {
                         img1: weather1,
                         img2: weather2,
@@ -71,5 +71,5 @@ export const youtube = {
                         img1: youtubeImg
                       },
                       code: "https://github.com/Steven-Ha-88/youtube",
-                      demo: ""
+                      demo: "https://steven-ha-88.github.io/youtube/"
                     }

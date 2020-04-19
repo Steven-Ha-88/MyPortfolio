@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Card, Wrapper, Header, Image, Overlay, Text } from './styles';
 import reddit from './../../Images/reddit.png';
 import weather1 from './../../Images/Weather1.png';
-import myweb from './../../Images/my-portfolio.png';
-import streamer from './../../Images/streamer2.png';
-import youtube from './../../Images/youtube.png'
+import myweb from './../../Images/portfolio-cover3.jpeg';
+import streamer from './../../Images/Steaming_thumbnail.jpeg';
+import youtube from './../../Images/youtube_cover.jpeg'
 import { Link } from "react-router-dom";
 
 
@@ -18,7 +18,7 @@ export const Projects = () => {
                 <Image src={reddit} />
               <Overlay>
                 <Text>
-                  Open
+                  Social News App
                 </Text>
               </Overlay>
               </Link>
@@ -28,7 +28,7 @@ export const Projects = () => {
                 <Image src={weather1} />
                 <Overlay>
                   <Text>
-                    Open
+                    The Weather
                   </Text>
                 </Overlay>
             </Link>
@@ -38,7 +38,7 @@ export const Projects = () => {
               <Image src={streamer} />
               <Overlay>
                 <Text>
-                    Open
+                    Live Streaming
                 </Text>
               </Overlay>
             </Link>
@@ -48,21 +48,21 @@ export const Projects = () => {
                 <Image src={youtube} />
                 <Overlay>
                   <Text>
-                    Open
+                    YouTube Replica
                   </Text>
                 </Overlay>
             </Link>
         </Card>
-        {/* <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
+        <Card data-aos="zoom-in" data-aos-easing="ease-out-cubic">
             <Link to="/project-portfolio" style={{ textDecoration: "none" }} >
                 <Image src={myweb} />
                 <Overlay>
                   <Text>
-                    Open
+                    My Website
                   </Text>
                 </Overlay>
             </Link>
-        </Card> */}
+        </Card>
       </Wrapper>
     </Container>
   );

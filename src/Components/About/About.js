@@ -13,7 +13,7 @@ export const AboutMe = () => {
     <AboutWrapper data-aos="fade-down">
       <Header>About Me</Header>
       <Description data-aos="fade-right" textAlign="start">
-      Front-end Developer(React/Redux) with Back-end experience (Node.js, Express and MongoDB). My background is in computer science with a huge interest in Cloud Services. I enjoy using the latest technology to deliver the simplest solution. Aside from coding, I love to game and travel.
+      Front-end Developer(React/Redux) with Back-end experience (Node.js, Express and MongoDB) based in London. My background is in computer science with a huge interest in Cloud Services. I enjoy using the latest technology to deliver the simplest solution. Aside from coding, I love to game and travel.
       </Description>
       <Skills data-aos="fade-right">
         <List>

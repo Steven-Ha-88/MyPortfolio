@@ -1,13 +1,11 @@
 .my-caro {
   width: 100vw;
-  padding: 100px 20% 0 20%;
+  padding: 55px 20% 0 20%;
 }
 
 @media (max-width: 1024px) {
   .my-caro {
-    padding: 60px 20px 0 20px;
-  }
-
+    padding: 55px 0 0 0;  }
 }
 .header {
   font-family: 'DM Serif Display', serif;

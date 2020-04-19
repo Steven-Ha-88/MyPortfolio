@@ -42,7 +42,7 @@ height: 100%;
 width: 100%;
 opacity: 0;
 transition: .5s ease;
-background-color: #31835fab;
+background-color: #28b684c4;
 `;
 export const Card = styled.div`
   width: 500px;
@@ -62,7 +62,7 @@ export const Card = styled.div`
 
 export const Text = styled.div`
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     position: absolute;
     top: 50%;
     left: 50%;
