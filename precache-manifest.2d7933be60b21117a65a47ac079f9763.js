@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b242a1a6fbce88172568dac01a834de2",
+    "revision": "8074e207e58be9ca1b91cfc73225273e",
     "url": "/MyPortfolio/index.html"
   },
   {
-    "revision": "a9d49ce46c0fe5a766e9",
+    "revision": "75c7954d79772e715e69",
     "url": "/MyPortfolio/static/css/main.0ac48eec.chunk.css"
   },
   {
-    "revision": "b8076f3b112830e0d252",
-    "url": "/MyPortfolio/static/js/2.8ffca075.chunk.js"
+    "revision": "18414bd4a95b36712ca6",
+    "url": "/MyPortfolio/static/js/2.5cfbd069.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/MyPortfolio/static/js/2.8ffca075.chunk.js.LICENSE.txt"
+    "url": "/MyPortfolio/static/js/2.5cfbd069.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9d49ce46c0fe5a766e9",
-    "url": "/MyPortfolio/static/js/main.556fa527.chunk.js"
+    "revision": "75c7954d79772e715e69",
+    "url": "/MyPortfolio/static/js/main.3c02a217.chunk.js"
   },
   {
     "revision": "52a4bad007323f1d525b",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e56dee4b6f5bd14812c29f5d5c2a857",
     "url": "/MyPortfolio/static/media/Selfie.8e56dee4.png"
+  },
+  {
+    "revision": "fc1f26edabf44506fbcfe5ccd72c206d",
+    "url": "/MyPortfolio/static/media/Steaming_thumbnail.fc1f26ed.jpeg"
   },
   {
     "revision": "05d63579f5467e388a5ff3d4af478570",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a235c26f70568d8438526634148e2159",
     "url": "/MyPortfolio/static/media/my-portfolio.a235c26f.png"
+  },
+  {
+    "revision": "66c7c85821766dae0bb1a98f5b170c40",
+    "url": "/MyPortfolio/static/media/portfolio-cover3.66c7c858.jpeg"
   },
   {
     "revision": "1fe1eb792001504cf70addbbf2714c95",
@@ -76,7 +84,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPortfolio/static/media/streamer2.28d12977.png"
   },
   {
-    "revision": "3974d046f64f4d1b001120bbad8225b1",
-    "url": "/MyPortfolio/static/media/youtube.3974d046.png"
+    "revision": "891f7679fb70ecd11ed2a97785b9a534",
+    "url": "/MyPortfolio/static/media/youtube.891f7679.png"
+  },
+  {
+    "revision": "9decd4ad445abf2de36417d194a9c797",
+    "url": "/MyPortfolio/static/media/youtube_cover.9decd4ad.jpeg"
   }
 ]);
