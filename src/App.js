@@ -22,11 +22,11 @@ const App = () => {
           <animated.div key={key} style={props}>
             <Switch location={item}>
               <Route exact path="/" component={Home} />
-              <Route exact path="/project-askmesomething" render={(props) => <Portfolio {...props} project={ams} />} />
-              <Route exact path="/project-weather" render={(props) => <Portfolio {...props} project={weather} />} />
-              <Route exact path="/project-streamer" render={(props) => <Portfolio {...props} project={streamer} />} />
-              <Route exact path="/project-youtube" render={(props) => <Portfolio {...props} project={youtube} />} />
-              <Route exact path="/project-portfolio" render={(props) => <Portfolio {...props} project={myweb} />} />
+              <Route exact path="/project-askmesomething"><Portfolio  project={ams} /></Route>
+              <Route exact path="/project-weather"><Portfolio project={weather} /> </Route>
+              <Route exact path="/project-streamer"> <Portfolio  project={streamer} /> </Route>
+              <Route exact path="/project-youtube"><Portfolio  project={youtube} /> </Route>
+              <Route exact path="/project-portfolio"><Portfolio  project={myweb} /></Route>
             </Switch>
           </animated.div>
         ))} 

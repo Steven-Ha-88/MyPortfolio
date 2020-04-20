@@ -28,6 +28,7 @@ export const Wrapper = styled.div`
     @media (max-width: 1024px) {
       width: 100%;
       justify-content: center;
+
     }
 `;
 
@@ -39,7 +40,7 @@ export const WrapperImg = styled.div`
     @media (max-width: 1024px) {
       justify-content: center;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 375px) {
       height: 100%;
     }
 
@@ -55,17 +56,22 @@ export const Header = styled.h1`
     text-align: start;
     color: black;
     @media (max-width: 375px) {
+      font-size: 3em;
       margin-top: 0px;
       margin-left: 0px;
       margin-bottom: 0px;
     }
-
-    @media (max-width: 1280px) {
-      margin-top: 40px;
+    @media (max-width: 1640px) {
+      
+      margin-top: 0px;
       margin-left: 0px;
       margin-bottom: 0px;
-      font-size: 55px;
-
+    }
+    @media (max-width: 1200px) {
+      font-size: 3em;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
     }
 `;
 
@@ -92,12 +98,12 @@ export const Image = styled.img`
     height: 100%;
     align-self: flex-end;
 
-    @media (max-width: 1024px) {
-      width: 70%;
+    @media (max-width: 1200px) {
+      width: 33%;
       height: 100%;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 500px) {
       width: 80%;
       height: 110%;
     }
