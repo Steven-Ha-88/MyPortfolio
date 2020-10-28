@@ -1,26 +1,41 @@
 .my-caro {
   width: 100vw;
-  padding: 55px 20% 0 20%;
+  padding: 0px 20% 0 20%;
 }
 
 @media (max-width: 1024px) {
   .my-caro {
-    padding: 55px 0 0 0;  }
+    padding: 0px 0 0 0;
+  }
 }
 .header {
-  font-family: 'DM Serif Display', serif;
   margin: 20px 0;
 }
 
 .description {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.latest-button {
+  width: 70px;
+  height: 20px;
+  margin-left: 10px;
+  background: #7640ff;
+  border: none;
+  text-transform: uppercase;
+  color: #74ccca;
+  font-size: 12px;
+  position: relative;
+  top: 2px;
 }
 
 .exit {
   text-decoration: none;
   color: grey;
   font-size: 3.5em;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   height: 56px;
   width: 49px;
   transition: 300ms;
@@ -29,13 +44,11 @@
 @media (max-width: 1024px) {
   .exit {
     font-size: 2.5em;
-    
   }
 }
 @media (max-width: 500px) {
   .exit {
     font-size: 2.5em;
-
   }
 }
 
@@ -46,14 +59,13 @@
 }
 
 .btn {
-  font-family: 'Roboto Mono', monospace;
-  width: 180px;
+  font-family: "Roboto Mono", monospace;
+  width: 146px;
   height: 50px;
   line-height: 32px;
-  margin-right: 10px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
+  color: white;
+  background-color: #8b77c0;
+  border: 2px solid rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -62,38 +74,41 @@
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  box-shadow: none!important;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  box-shadow: none !important;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
   text-decoration: none;
 }
 .btn:hover {
-  background-color: #28b684;
+  background-color: #513697;
   color: white;
   border: 2px solid white;
 }
 
-.project-description{
+.project-description {
   display: flex;
   flex-direction: column;
   padding: 0 20%;
-
+  align-items: center;
 }
 
 @media (max-width: 500px) {
   .project-description {
     padding: 0 20px;
   }
-
 }
 
 .btn-container {
   display: flex;
   flex-direction: row;
-
+  margin-bottom: 20px;
 }
 
-.my-container{
-  background-color: #f4f4f4;
-  width: 100vw;
+.my-container {
+  background-color: #ffffff;
+  /* width: 100vw; */
   margin-bottom: 25px;
+  /* height: 100vh; */
+  padding-top: 30px;
 }
