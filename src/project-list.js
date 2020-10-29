@@ -1,15 +1,27 @@
-import ams1 from "./Images/reddit.jpg";
-import ams2 from "./Images/reddit1.jpg";
-import animates from "./Images/Animates.jpg";
-import weather1 from "./Images/Weather1.jpg";
-import weather3 from "./Images/Weather.jpg";
-import weather2 from "./Images/Weather2.jpg";
-import streamer1 from "./Images/streamer.jpg";
-import streamer2 from "./Images/streamer1.jpg";
-import streamer3 from "./Images/streamer2.jpg";
-import tmdb1 from "./Images/tmdb1.jpg";
-import tmdb2 from "./Images/tmdb2.jpg";
-import pic1 from "./Images/musician.jpg";
+import ams1 from "./Images/reddit.webp";
+import ams2 from "./Images/reddit1.webp";
+import animates from "./Images/Animates.webp";
+import weather1 from "./Images/Weather1.webp";
+import weather3 from "./Images/Weather.webp";
+import weather2 from "./Images/Weather2.webp";
+import streamer1 from "./Images/streamer.webp";
+import streamer2 from "./Images/streamer1.webp";
+import streamer3 from "./Images/streamer2.webp";
+import tmdb1 from "./Images/tmdb1.webp";
+import tmdb2 from "./Images/tmdb2.webp";
+import pic1 from "./Images/musician.webp";
+import ams1_mobile from "./Images/reddit-mobile.webp";
+import ams2_mobile from "./Images/reddit1-mobile.webp";
+import animates_mobile from "./Images/Animates-mobile.webp";
+import weather1_mobile from "./Images/Weather1-mobile.webp";
+import weather3_mobile from "./Images/Weather-mobile.webp";
+import weather2_mobile from "./Images/Weather2-mobile.webp";
+import streamer1_mobile from "./Images/streamer-mobile.webp";
+import streamer2_mobile from "./Images/streamer1-mobile.webp";
+import streamer3_mobile from "./Images/streamer2-mobile.webp";
+import tmdb1_mobile from "./Images/tmdb1-mobile.webp";
+import tmdb2_mobile from "./Images/tmdb2-mobile.webp";
+import pic1_mobile from "./Images/musician-mobile.webp";
 
 export const tmdb = {
   name: "The Movie Database",
@@ -20,6 +32,8 @@ export const tmdb = {
   images: {
     img1: tmdb1,
     img2: tmdb2,
+    mobile1: tmdb1_mobile,
+    mobile2: tmdb2_mobile,
     // img3: ams3,
   },
   code: "https://github.com/Steven-Ha-88/MovieDB",
@@ -34,6 +48,7 @@ export const animatestv = {
     "JavaScript, React, React-Router, HTML5, CSS, Styled Components, Netlify, YoutubeAPI",
   images: {
     img1: animates,
+    mobile1: animates_mobile,
 
     // img3: ams3,
   },
@@ -48,7 +63,7 @@ export const kel = {
   technologies: "JavaScript, HTML, CSS, Bootstrap",
   images: {
     img1: pic1,
-    // img2: tmdb2,
+    mobile1: pic1_mobile,
     // img3: ams3,
   },
   code: "https://github.com/Steven-Ha-88/kelvincarmichael",
@@ -64,6 +79,8 @@ export const ams = {
   images: {
     img1: ams1,
     img2: ams2,
+    mobile1: ams1_mobile,
+    mobile2: ams2_mobile,
     // img3: ams3,
   },
   code: "https://github.com/Steven-Ha-88/Ask-Me-Something",
@@ -79,6 +96,9 @@ export const weather = {
     img1: weather1,
     img2: weather2,
     img3: weather3,
+    mobile1: weather1_mobile,
+    mobile2: weather2_mobile,
+    mobile3: weather3_mobile,
   },
   code: "https://github.com/Steven-Ha-88/Weather-App",
   demo: "",
@@ -94,6 +114,9 @@ export const streamer = {
     img1: streamer1,
     img2: streamer2,
     img3: streamer3,
+    mobile1: streamer1_mobile,
+    mobile2: streamer2_mobile,
+    mobile3: streamer3_mobile,
   },
   code: "https://github.com/Steven-Ha-88/Streamer",
   demo: "",

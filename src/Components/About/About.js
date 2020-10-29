@@ -1,5 +1,5 @@
 import React from "react";
-import pic1 from "./../../Images/AboutMe.jpeg";
+import pic1 from "./../../Images/AboutMe.webp";
 import {
   Container,
   Stack,
@@ -54,7 +54,7 @@ export const AboutMe = () => {
       </AboutWrapper>
       <ImgWrapper>
         <div data-aos='fade-right' data-aos-easing='ease-out-cubic'>
-          <Image width='100' src={pic1} />
+          <Image width='100' src={pic1} alt='Image of desk' />
         </div>
       </ImgWrapper>
     </Section>
