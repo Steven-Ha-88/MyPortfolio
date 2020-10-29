@@ -1,10 +1,11 @@
 import React from "react";
 import "./styles.css";
-import AbsoluteWrapper from "./../AbsoluteWrapper";
-import { HashLink as Link } from "react-router-hash-link";
 
 export const Portfolio = (props) => {
-  const { project, latest } = props;
+  const {
+    project: { name, images, demo, code, description, technologies },
+    latest,
+  } = props;
   return (
     <div className='my-container' data-aos='fade-up'>
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -17,7 +18,7 @@ export const Portfolio = (props) => {
             fontWeight: "700",
           }}
           className='header'>
-          {project.name}
+          {name}
         </h1>
         {latest && <button className='latest-button'>Latest</button>}
       </div>
@@ -36,35 +37,42 @@ export const Portfolio = (props) => {
             <li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
             <li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
           </ol>
+          {console.log("SCREENSIZE:", window.screen.width)}
           <div className='carousel-inner'>
-            {project.images.img1 ? (
+            {images.img1 ? (
               <div
                 style={{ padding: "10px 20px 20px 20px" }}
                 className='carousel-item active '>
                 <img
-                  src={project.images.img1}
+                  src={
+                    window.screen.width <= 480 ? images.mobile1 : images.img1
+                  }
                   className='d-block w-100'
                   alt='website screenshot'
                 />
               </div>
             ) : null}
-            {project.images.img2 ? (
+            {images.img2 ? (
               <div
                 style={{ padding: "10px 20px 20px 20px" }}
                 className='carousel-item'>
                 <img
-                  src={project.images.img2}
+                  src={
+                    window.screen.width <= 480 ? images.mobile2 : images.img2
+                  }
                   className='d-block w-100'
                   alt='website screenshot'
                 />
               </div>
             ) : null}
-            {project.images.img3 ? (
+            {images.img3 ? (
               <div
                 style={{ padding: "10px 20px 20px 20px" }}
                 className='carousel-item'>
                 <img
-                  src={project.images.img3}
+                  src={
+                    window.screen.width <= 480 ? images.mobile2 : images.img2
+                  }
                   className='d-block w-100'
                   alt='website screenshot'
                 />
@@ -95,21 +103,18 @@ export const Portfolio = (props) => {
       </div>
       <div className='project-description'>
         <div className='btn-container'>
-          {project.demo ? (
-            <a
-              href={project.demo}
-              style={{ marginRight: "10px" }}
-              className='btn'>
+          {demo ? (
+            <a href={demo} style={{ marginRight: "10px" }} className='btn'>
               Demo
             </a>
           ) : null}
-          <a href={project.code} className='btn'>
+          <a href={code} className='btn'>
             Code
           </a>
         </div>
-        <p className='description'>{project.description}</p>
+        <p className='description'>{description}</p>
         <p style={{ fontSize: "16px", color: "#74ccca" }}>Technology Stack:</p>
-        <p className='description'>{project.technologies}</p>
+        <p className='description'>{technologies}</p>
       </div>
     </div>
   );

@@ -8,7 +8,8 @@ import {
   SubHead,
   ImageDiv,
 } from "./styles";
-import Selfie from "./../../Images/Selfie.png";
+import Selfie from "./../../Images/Selfie.webp";
+import Selfie_mobile from "./../../Images/Selfie-mobile.webp";
 
 export const LandingPage = () => {
   return (
@@ -32,7 +33,10 @@ export const LandingPage = () => {
           data-aos='fade-up'
           data-aos-easing='ease-out-cubic'
           data-aos-duration='500'>
-          <Image src={Selfie} alt='Selfie of Steven' />
+          <Image
+            src={window.screen.width <= 480 ? Selfie_mobile : Selfie}
+            alt='Selfie of Steven'
+          />
         </ImageDiv>
       </WrapperImg>
     </Container>

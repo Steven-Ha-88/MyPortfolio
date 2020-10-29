@@ -137,7 +137,7 @@ export const Point = styled.li`
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  font-family: "Nunito Sans", sans-serif;
+  // font-family: "Nunito Sans", sans-serif;
   justify-content: flex-start;
   width: 100%;
   background-color: ${(props) => props.colour};
