@@ -15,24 +15,13 @@ export const LandingPage = () => {
   return (
     <Container>
       <Wrapper>
-        <Header
-          data-aos='fade-down'
-          data-aos-easing='ease-out-cubic'
-          data-aos-duration='1000'>
+        <Header data-aos='fade-down'>
           Hi! <br /> I'm Steven
         </Header>
-        <SubHead
-          data-aos='fade-down'
-          data-aos-easing='ease-out-cubic'
-          data-aos-duration='1000'>
-          Front End Developer
-        </SubHead>
+        <SubHead data-aos='fade-down'>Front End Developer</SubHead>
       </Wrapper>
       <WrapperImg>
-        <ImageDiv
-          data-aos='fade-up'
-          data-aos-easing='ease-out-cubic'
-          data-aos-duration='500'>
+        <ImageDiv data-aos='fade-up'>
           <Image
             src={window.screen.width <= 480 ? Selfie_mobile : Selfie}
             alt='Selfie of Steven'
