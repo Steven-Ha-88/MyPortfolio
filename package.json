@@ -16,7 +16,6 @@
     "styled-components": "^5.1.0",
     "swup": "^2.0.9"
   },
-  "homepage": "https://steven-ha-88.github.io/MyPortfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

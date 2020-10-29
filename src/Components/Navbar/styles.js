@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { NavHashLink } from 'react-router-hash-link';
-
+import { NavHashLink } from "react-router-hash-link";
 
 export const HeaderWrapper = styled.div`
   position: fixed;
@@ -47,13 +46,9 @@ export const Link = styled(NavHashLink)`
   text-decoration: none;
   margin: 0 25px 0 25px;
   color: black;
-  font-family: 'Nunito Sans',sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   :hover {
-    color: #36AA76;
+    color: purple;
     text-decoration: none;
-}
-
+  }
 `;
-
-
-
