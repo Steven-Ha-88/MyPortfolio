@@ -1,17 +1,15 @@
-import ams1 from "./Images/reddit.png";
-import ams2 from "./Images/reddit1.png";
-import ams3 from "./Images/reddit2.png";
-import weather1 from "./Images/Weather1.png";
-import weather3 from "./Images/Weather.png";
-import weather2 from "./Images/Weather2.png";
-import youtubeImg from "./Images/youtube.png";
-import streamer1 from "./Images/streamer.png";
-import streamer2 from "./Images/streamer1.png";
-import streamer3 from "./Images/streamer2.png";
-import mywebsite from "./Images/my-portfolio.png";
-import tmdb1 from "./Images/tmdb1.png";
-import tmdb2 from "./Images/tmdb2.png";
-import pic1 from "./Images/musician.png";
+import ams1 from "./Images/reddit.jpg";
+import ams2 from "./Images/reddit1.jpg";
+import animates from "./Images/Animates.jpg";
+import weather1 from "./Images/Weather1.jpg";
+import weather3 from "./Images/Weather.jpg";
+import weather2 from "./Images/Weather2.jpg";
+import streamer1 from "./Images/streamer.jpg";
+import streamer2 from "./Images/streamer1.jpg";
+import streamer3 from "./Images/streamer2.jpg";
+import tmdb1 from "./Images/tmdb1.jpg";
+import tmdb2 from "./Images/tmdb2.jpg";
+import pic1 from "./Images/musician.jpg";
 
 export const tmdb = {
   name: "The Movie Database",
@@ -26,6 +24,21 @@ export const tmdb = {
   },
   code: "https://github.com/Steven-Ha-88/MovieDB",
   demo: "https://serene-plains-40116.herokuapp.com/",
+};
+
+export const animatestv = {
+  name: "AniMates Podcast",
+  description:
+    "A web and mobile application made for AniMates. AniMates is a podcast that not only brings about fun and interesting topics and discussions but on a larger mission, brings about inclusivity and representation for young black males and females, who enjoy anime but don’t have a community that gives them the opportunity to share their opinions and be apart of.  ",
+  technologies:
+    "JavaScript, React, React-Router, HTML5, CSS, Styled Components, Netlify, YoutubeAPI",
+  images: {
+    img1: animates,
+
+    // img3: ams3,
+  },
+  code: "https://github.com/Steven-Ha-88/AniMates",
+  demo: "https://www.animatestv.co.uk",
 };
 
 export const kel = {
@@ -57,18 +70,6 @@ export const ams = {
   demo: "https://ask-me-something-e4828.firebaseapp.com",
 };
 
-export const myweb = {
-  name: "My Portfolio!",
-  description: "Of course I had to include my own website! :]",
-  technologies:
-    "JavaScript, React, React-Spring, Animate-On-Scroll, Styled Components, Bootstrap, Responsive Design",
-  images: {
-    img1: mywebsite,
-  },
-  code: "https://github.com/Steven-Ha-88/MyPortfolio",
-  demo: "www.stevenha.co.uk",
-};
-
 export const weather = {
   name: "The Weather App",
   description: "Check the current weather forecast of your favourite city!",
@@ -96,16 +97,4 @@ export const streamer = {
   },
   code: "https://github.com/Steven-Ha-88/Streamer",
   demo: "",
-};
-
-export const youtube = {
-  name: "YouTube Replica",
-  description: "Watch your favourite videos on Youtube!",
-  technologies:
-    "JavaScript, React, React, Redux,  Axios, Bootstrap, Responsive Design, YouTubeAPI, CSS Flexbox",
-  images: {
-    img1: youtubeImg,
-  },
-  code: "https://github.com/Steven-Ha-88/youtube",
-  demo: "https://steven-ha-88.github.io/youtube/",
 };

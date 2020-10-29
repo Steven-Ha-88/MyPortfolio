@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Card,
-  Wrapper,
-  Header,
-  Image,
-  Overlay,
-  Text,
-} from "./styles";
+import { Container, Wrapper, Header } from "./styles";
 // import reddit from "./../../Images/reddit.png";
 // import weather1 from "./../../Images/Weather1.png";
 // import myweb from "./../../Images/portfolio-cover3.jpeg";
@@ -19,8 +11,7 @@ import {
   ams,
   weather,
   streamer,
-  youtube,
-  myweb,
+  animatestv,
   tmdb,
   kel,
 } from "./../../project-list";
@@ -31,6 +22,7 @@ export const Projects = () => {
       <Header data-aos='fade-up'>Projects</Header>
       <Wrapper>
         <Portfolio project={tmdb} latest />
+        <Portfolio project={animatestv} />
         <Portfolio project={ams} />
         <Portfolio project={weather} />
         <Portfolio project={streamer} />
