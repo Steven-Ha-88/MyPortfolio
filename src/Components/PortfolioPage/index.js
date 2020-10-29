@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css";
-//rfvw
 
 export const Portfolio = (props) => {
   const {
