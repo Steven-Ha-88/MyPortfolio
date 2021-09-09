@@ -1,33 +1,48 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+gap: 50px;
   display: flex;
   justify-content: center;
   width: 100vw;
   min-height: 600px;
-  height: 100vh;
+  height: 70vh;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #f4f4f4;
+  background-color: white;
+  /* background-color: #f4f4f4; */
   @media (max-width: 768px) {
     flex-direction: column;
   }
   @media (max-width: 480px) {
-    height: auto;
+    height: 90vh;
+    gap: 0px;
+
     justify-content: space-evenly;
   }
 `;
 
+export const Outer = styled.div`
+/* background: rgb(178,190,204);
+background: linear-gradient(324deg, rgba(178,190,204,1) 29%, rgba(218,209,209,1) 100%); */
+
+`;
+
+export const BottomSvg = styled.div`
+margin-top: -90px;
+
+`;
+
 export const ImageDiv = styled.div`
-  width: 500px;
-  max-width: 425px;
+  
+  max-width: 400px;
   height: auto;
   display: flex;
-  alignitems: flex-end;
+  align-items: flex-end;
   // @media (max-width: 1000px) {
   //   width: 225px;
   // }
   @media (max-width: 800px) {
-    width: 200px;
+    width: 250px;
     height: 200px;
     // border-radius: 50%;
     display: flex;
@@ -36,20 +51,23 @@ export const ImageDiv = styled.div`
   }
   @media (min-width: 1400px) {
     width: 600px;
-    max-width: ;
   }
 `;
 
 export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   width: 100%;
   height: 100%;
   @media (max-width: 1024px) {
     width: 100%;
     justify-content: center;
+  }
+  @media (max-width: 780px) {
+    align-items: center;
+
   }
 `;
 

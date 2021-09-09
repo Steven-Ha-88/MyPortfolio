@@ -8,12 +8,17 @@ export const Container = styled.div`
   background-color: #ffffff;
 `;
 
-export const Header = styled.h1`
+export const Header = styled.div`
+
   text-align: center;
   font-family: "Open sans", serif;
   color: black;
   font-size: 22px;
   margin: 50px 0 20px;
+  border-style: solid;
+    border-width: 0 0 4px 0;
+    margin: 50px auto;
+    border-image: linear-gradient(45deg, #bdcad9, #e1dada) 1;
   @media (max-width: 375px) {
     margin-bottom: 0px;
   }

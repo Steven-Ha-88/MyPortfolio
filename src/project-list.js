@@ -22,6 +22,48 @@ import streamer3_mobile from "./Images/streamer2-mobile.webp";
 import tmdb1_mobile from "./Images/tmdb1-mobile.webp";
 import tmdb2_mobile from "./Images/tmdb2-mobile.webp";
 import pic1_mobile from "./Images/musician-mobile.webp";
+import sickfits1 from './Images/sickfits.webp';
+import sickfits2 from './Images/sickfits2.png';
+import sickfits3 from './Images/sickfits-mobile.webp';
+import sickfits4 from './Images/sickfits2-mobile.webp';
+
+import eso from './Images/eso.webp';
+import eso2 from './Images/eso-mobile.webp';
+
+export const sickfits = {
+  name: "Sickfits",
+  description:
+    "An E-commerce web application designed to buy/sell trainers. Consumers can add items to cart and make a purchase via Stripe. This website is currently in test mode.",
+  technologies:
+    "NextJS, React, JavaScript, TypeScript, GraphQL, Apollo, GraphQL, Node.js, Keystone, Stripe, Styled Components, Email, Cloudinary, Vercel",
+  images: {
+    img1: sickfits1,
+    img2: sickfits2,
+    mobile1: sickfits3,
+    mobile2: sickfits4,
+    // // img3: ams3,
+  },
+  code: "https://github.com/Steven-Ha-88/ecommerce",
+  demo: "https://www.sickfits-steven.co.uk",
+};
+
+export const esoMorningstar = {
+  name: "The ESO of the Morning Star",
+  description:
+    "The ESO of the Morning Star church website. This website incorporates a hymns lyrics feature using Contenful CMS and GraphQL. Note: This project is still ongoing...",
+  technologies:
+    "Gatsby, React, JavaScript, GraphQL, HTML5, Styled-Components, Contenful, Lazy-loading",
+  images: {
+    img1: eso,
+    mobile1: eso2,
+    // img2: sickfits2,
+    // mobile1: tmdb1_mobile,
+    // mobile2: tmdb2_mobile,
+    // // img3: ams3,
+  },
+  code: "https://github.com/Steven-Ha-88/esomorningstar",
+  demo: "https://morningstarlondon.com/",
+};
 
 export const tmdb = {
   name: "The Movie Database",

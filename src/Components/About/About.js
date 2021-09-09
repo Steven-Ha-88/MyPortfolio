@@ -26,7 +26,7 @@ export const AboutMe = () => {
           latest technology to deliver the simplest solution. Aside from coding,
           I love to game and travel.
         </Description>
-        <Skills data-aos='fade-right'>
+        {/* <Skills data-aos='fade-right'>
           <List>
             <Point>JavaScript</Point>
             <Point>TypeScript</Point>
@@ -35,8 +35,8 @@ export const AboutMe = () => {
             <Point>Node</Point>
             <Point>MongoDB</Point>
           </List>
-        </Skills>
-        <Container
+        </Skills> */}
+        {/* <Container
           data-aos='fade-down'
           colour='white'
           height='400px'
@@ -49,8 +49,16 @@ export const AboutMe = () => {
             <i className='devicon-css3-plain-wordmark colored'></i>
             <i className='devicon-nodejs-plain colored'></i>
             <i className='devicon-github-plain colored'></i>
+            <i class="devicon-bootstrap-plain colored"></i>
+            <i class="devicon-jest-plain colored"></i>
+            <i class="devicon-nextjs-original colored"></i>
+            <i class="devicon-gatsby-plain colored"></i>
+            <i class="devicon-graphql-plain-wordmark colored"></i>
+            <i class="devicon-sass-original colored"></i>
+            <i class="devicon-heroku-plain colored"></i>
+
           </Stack>
-        </Container>
+        </Container> */}
       </AboutWrapper>
       <ImgWrapper>
         <div data-aos='fade-right' data-aos-easing='ease-out-cubic'>

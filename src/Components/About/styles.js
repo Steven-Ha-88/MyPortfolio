@@ -10,7 +10,7 @@ export const Section = styled.div`
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(248,250,252);
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -81,7 +81,7 @@ export const Header = styled.h1`
 `;
 
 export const Description = styled.p`
-  font-size: 12px;
+  font-size: 1rem;
   color: grey;
   text-align: ${(props) => props.textAlign};
   // margin: 10px 20px 0 20px;
@@ -96,7 +96,7 @@ export const Description = styled.p`
     // margin: 30px 20px 0 20px;
   }
   @media (max-width: 376px) {
-    padding: 0;
+    padding: 5px;
   }
 `;
 
@@ -146,8 +146,8 @@ export const Container = styled.div`
 
 export const Stack = styled.div`
   display: flex;
-  flex-direction: row;
-  font-size: 1.5em;
+  flex-flow: row wrap;
+  font-size: 2.5em;
   letter-spacing: 8px;
   padding: 0 20px;
   // margin: 20px 0 40px 0;

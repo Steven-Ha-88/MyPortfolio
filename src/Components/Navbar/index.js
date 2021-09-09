@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { HeaderWrapper, Link } from "./styles";
-import "./styles";
+import "./styles.css";
 
 const useTransparentHook = (height) => {
   const [isTransparent, setTransparent] = useState(true);
@@ -19,9 +19,27 @@ const useTransparentHook = (height) => {
 };
 
 const Header = () => {
+  const [toggleNav, setToggleNav] = useState(false)
+
   const isTransparent = useTransparentHook(40);
   return (
     <HeaderWrapper isTransparent={isTransparent}>
+       {/* <a
+            className="nav-burger"
+            href={`#`}
+            onClick={() => setToggleNav(!toggleNav)}
+          >
+            <div
+              className="hamburger hamburger--collapse"
+              aria-label="Menu"
+              role="button"
+              aria-controls="navigation"
+            >
+              <div className="hamburger-box">
+                <div className="hamburger-inner" />
+              </div>
+            </div>
+          </a> */}
       <Link to='/#about'>About</Link>
       <Link to='/#projects'>Projects</Link>
       <Link to='/#contact'>Contact</Link>

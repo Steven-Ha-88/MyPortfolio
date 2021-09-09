@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack, SocialLinks, Container, Description } from './styles';
-import CV from './../../Images/CV.pdf';
+import CV from './../../Images/CV2021.pdf';
 
 
 export const Footer = () => {

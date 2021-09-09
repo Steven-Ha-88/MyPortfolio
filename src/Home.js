@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <AboutMe />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </AbsoluteWrapper>
   );
 }

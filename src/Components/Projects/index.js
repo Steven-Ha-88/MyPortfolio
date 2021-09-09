@@ -14,19 +14,24 @@ import {
   animatestv,
   tmdb,
   kel,
+  sickfits,
+  esoMorningstar
 } from "./../../project-list";
 
 export const Projects = () => {
   return (
     <Container id='projects'>
-      <Header data-aos='fade-up'>Projects</Header>
+      <Header data-aos='fade-up'><h3>Projects</h3></Header>
       <Wrapper>
-        <Portfolio project={tmdb} latest />
+        <Portfolio project={sickfits} latest />
+        <Portfolio project={tmdb} />
         <Portfolio project={animatestv} />
+        <Portfolio project={esoMorningstar} />
+        <Portfolio project={kel} />
         <Portfolio project={ams} />
         <Portfolio project={weather} />
-        <Portfolio project={streamer} />
-        <Portfolio project={kel} />
+        {/* <Portfolio project={streamer} /> */}
+       
         {/* <Portfolio project={youtube} /> */}
         {/* <Portfolio project={myweb} /> */}
       </Wrapper>
